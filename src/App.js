@@ -7,6 +7,7 @@ import WaterDropCard from './components/WaterDropCard/WaterDropCard';
 import Canvas from './components/Canvas/Canvas';
 import ZoomImage from './components/ZoomImage/ZoomImage';
 import BorderedForm from './components/AnimatedBorderedForm/BorderedForm';
+import Clock from './components/Clock/Clock';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <WaterDropCard /> */}
       {/* <Canvas /> */}
       {/* <ZoomImage /> */}
-      <BorderedForm />
+      {/* <BorderedForm /> */}
+      <Clock />
     </div>
   );
 }
